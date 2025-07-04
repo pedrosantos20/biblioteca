@@ -1,0 +1,119 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  display: flex;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  gap: 5rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+/*
+.navbar li {
+  display: flex;
+  align-items: center;
+}*/
+
+.navbar h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* TÍTULO DA BUSCA */
+.buscar-livros {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #181818;
+  border-bottom: 1px solid #333;
+}
+
+.buscar-livros h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* CAMPO DE PESQUISA */
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  background-color: #1a1a1a;
+}
+
+.pesquisa input {
+  border-radius: 30px;
+  width: 25rem;
+  height: 2.5rem;
+  border: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+.pesquisa input::placeholder {
+  color: #888;
+}
+
+/* RESULTADOS */
+.resultados {
+  background-color: #121212; /* corrige fundo claro da div */
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.resultados ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.resultados li {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.resultados_texto {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #ffffff; /* agora o texto está branco */
+}
+
+.resultados_buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.resultados_buttons button {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #444;
+  margin-top: 1.5rem;
+}
