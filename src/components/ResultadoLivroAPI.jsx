@@ -15,7 +15,7 @@ export default function ResultadoLivro({ livro, info }) {
       status: 'disponível',
     };
 
-    const resposta = await fetch('/api/livros', {
+    const resposta = await fetch('/api', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
